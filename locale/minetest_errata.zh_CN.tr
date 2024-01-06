@@ -1,0 +1,56 @@
+# textdomain: minetest_errata
+
+### chat_commands.lua ###
+Show statistics of registered items and callbacks=
+Registered nodes: @1=
+Registered craftitems: @1=
+Registered tools: @1=
+Registered entities: @1=
+Registered ABMs: @1=
+Registered LBMs: @1=
+Registered globalsteps: @1=
+Detailed statistics on ABMs=
+Detailed statistics on LBMs=
+Get current position, adjusted for teleporting=
+Your position: @1,@2,@3=
+
+### doors.lua ###
+Solid Wooden Door=
+Solid Steel Door=
+Wooden Bar Door=
+Iron Bar Door=
+Protected Glass Door=已上锁的玻璃门
+Protected Obsidian Glass Door=已上锁的黑曜石玻璃门
+Glass Trapdoor=玻璃活板门
+Clean Glass Door=干净玻璃活板门
+Coal Glass Door=煤玻璃活板门
+Iron Glass Door=铁玻璃活板门
+Protected Iron Glass Door=已上锁的铁玻璃门
+
+### flint_block.lua ###
+Flint Block=燧石方块
+
+### flint_block.lua ###
+### sandstone_cobble.lua ###
+### mossy_blocks.lua ###
+@1 Stair=@1楼梯
+@1 Slab=@1台阶
+
+### glass_panes.lua ###
+Double Glass Pane=
+Triple Glass Pane=
+Quadruple Glass Pane=
+
+### mossy_blocks.lua ###
+Mossy Stone=苔藓覆盖的石
+Mossy Stone Tile=苔藓覆盖的石瓦
+
+### sandstone_cobble.lua ###
+Sandstone Cobble=砂岩鹅卵石
+Desert Sandstone Cobble=沙漠砂岩鹅卵石
+Silver Sandstone Cobble=银砂岩鹅卵石
+@1 Wall=@1墙
+
+### xpanes.lua ###
+Paper Barrier=
+Wooden Bars=

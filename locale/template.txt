@@ -1,0 +1,56 @@
+# textdomain: minetest_errata
+
+### chat_commands.lua ###
+Show statistics of registered items and callbacks=
+Registered nodes: @1=
+Registered craftitems: @1=
+Registered tools: @1=
+Registered entities: @1=
+Registered ABMs: @1=
+Registered LBMs: @1=
+Registered globalsteps: @1=
+Detailed statistics on ABMs=
+Detailed statistics on LBMs=
+Get current position, adjusted for teleporting=
+Your position: @1,@2,@3=
+
+### doors.lua ###
+Solid Wooden Door=
+Solid Steel Door=
+Wooden Bar Door=
+Iron Bar Door=
+Protected Glass Door=
+Protected Obsidian Glass Door=
+Glass Trapdoor=
+Clean Glass Door=
+Coal Glass Door=
+Iron Glass Door=
+Protected Iron Glass Door=
+
+### flint_block.lua ###
+Flint Block=
+
+### flint_block.lua ###
+### sandstone_cobble.lua ###
+### mossy_blocks.lua ###
+@1 Stair=
+@1 Slab=
+
+### glass_panes.lua ###
+Double Glass Pane=
+Triple Glass Pane=
+Quadruple Glass Pane=
+
+### mossy_blocks.lua ###
+Mossy Stone=
+Mossy Stone Tile=
+
+### sandstone_cobble.lua ###
+Sandstone Cobble=
+Desert Sandstone Cobble=
+Silver Sandstone Cobble=
+@1 Wall=
+
+### xpanes.lua ###
+Paper Barrier=
+Wooden Bars=

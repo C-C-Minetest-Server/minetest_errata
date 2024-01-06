@@ -1,0 +1,56 @@
+# textdomain: minetest_errata
+
+### chat_commands.lua ###
+Show statistics of registered items and callbacks=顯示已註冊物品和呼叫的數據
+Registered nodes: @1=已註冊方塊：@1
+Registered craftitems: @1=已註冊物品：@1
+Registered tools: @1=已註冊工具：@1
+Registered entities: @1=已註冊實體：@1
+Registered ABMs: @1=已註冊ABM：@1
+Registered LBMs: @1=已註冊LBM：@1
+Registered globalsteps: @1=已註冊遊戲刻呼叫：@1
+Detailed statistics on ABMs=ABM的詳細數據
+Detailed statistics on LBMs=LBM的詳細數據
+Get current position, adjusted for teleporting=獲得目前座標，經調整爲傳送格式
+Your position: @1,@2,@3=您的座標：@1,@2,@3
+
+### doors.lua ###
+Solid Wooden Door=實心木門
+Solid Steel Door=實心鐵門
+Wooden Bar Door=木條門
+Iron Bar Door=鐵窗門
+Protected Glass Door=已上鎖的玻璃門
+Protected Obsidian Glass Door=已上鎖的黑曜石門
+Glass Trapdoor=玻璃活板門
+Clean Glass Door=乾淨玻璃活板門
+Coal Glass Door=煤玻璃活板門
+Iron Glass Door=鐵玻璃活板門
+Protected Iron Glass Door=已上鎖的鐵玻璃門
+
+### flint_block.lua ###
+Flint Block=燧石方塊
+
+### flint_block.lua ###
+### sandstone_cobble.lua ###
+### mossy_blocks.lua ###
+@1 Stair=@1樓梯
+@1 Slab=@1臺階
+
+### glass_panes.lua ###
+Double Glass Pane=
+Triple Glass Pane=
+Quadruple Glass Pane=
+
+### mossy_blocks.lua ###
+Mossy Stone=苔蘚覆蓋的石
+Mossy Stone Tile=苔蘚覆蓋的石瓦
+
+### sandstone_cobble.lua ###
+Sandstone Cobble=砂岩鵝卵石
+Desert Sandstone Cobble=沙漠砂岩鵝卵石
+Silver Sandstone Cobble=銀砂岩鵝卵石
+@1 Wall=@1牆
+
+### xpanes.lua ###
+Paper Barrier=紙牆
+Wooden Bars=木條欄杆
