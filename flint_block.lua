@@ -63,7 +63,7 @@ minetest.register_craft({
 if stairs and stairs.mod and stairs.mod == "redo" then
 	stairs.register_all("flint_block", "minetest_errata:flint_block",
 		{ cracky = 3 },
-		{ "minetest_errata:flint_block" },
+		{ "minetest_errata_flint_block.png" },
 		S("@1 Stair", S("Flint Block")),
 		S("@1 Slab", S("Flint Block")),
 		default.node_sound_stone_defaults())
