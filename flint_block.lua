@@ -70,7 +70,7 @@ if stairs and stairs.mod and stairs.mod == "redo" then
 elseif minetest.global_exists("stairsplus") then
 	stairsplus:register_all("minetest_errata", "flint_block", "minetest_errata:flint_block", {
 		description = S("Flint Block"),
-		tiles = { "minetest_errata:flint_block" },
+		tiles = { "minetest_errata_flint_block.png" },
 		groups = { cracky = 3 },
 		sounds = default.node_sound_stone_defaults(),
 	})
