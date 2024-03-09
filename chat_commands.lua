@@ -80,7 +80,11 @@ minetest.after(0, function()
 	for _, i in pairs(minetest.registered_lbms) do
 		n.l = n.l + 1
 		local l = i.name or "no name"
-		table.insert(n.lbms, { l, i.run_at_every_load, i.nodenames })
+		local nodenames = i.nodenames
+		if type(nodenames) == "string" then
+			nodenames = { nodenames }
+		end
+		table.insert(n.lbms, { l, i.run_at_every_load, nodenames })
 	end
 
 	minetest_errata.stats = n
