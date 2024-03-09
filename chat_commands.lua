@@ -75,7 +75,7 @@ minetest.after(0, function()
 				nodenames = {}
 			end
 		end
-		table.insert(n.abms, { l, i.interval, i.chance, nodenames })
+		table.insert(n.abms, { l, i.interval or "", i.chance or "", nodenames })
 	end
 
 	n.g = 0
