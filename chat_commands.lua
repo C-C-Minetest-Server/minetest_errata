@@ -69,7 +69,11 @@ minetest.after(0, function()
 		local l = i.label or "no label"
 		local nodenames = i.nodenames
 		if type(nodenames) ~= "table" then
-			nodenames = { nodenames }
+			if nodenames then
+				nodenames = { nodenames }
+			else
+				nodenames = {}
+			end
 		end
 		table.insert(n.abms, { l, i.interval, i.chance, nodenames })
 	end
@@ -86,7 +90,11 @@ minetest.after(0, function()
 		local l = i.name or "no name"
 		local nodenames = i.nodenames
 		if type(nodenames) ~= "table" then
-			nodenames = { nodenames }
+			if nodenames then
+				nodenames = { nodenames }
+			else
+				nodenames = {}
+			end
 		end
 		table.insert(n.lbms, { l, i.run_at_every_load, nodenames })
 	end
