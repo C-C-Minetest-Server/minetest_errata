@@ -67,7 +67,11 @@ minetest.after(0, function()
 	for _, i in pairs(minetest.registered_abms) do
 		n.a = n.a + 1
 		local l = i.label or "no label"
-		table.insert(n.abms, { l, i.interval, i.chance, i.nodenames })
+		local nodenames = i.nodenames
+		if type(nodenames) ~= "table" then
+			nodenames = { nodenames }
+		end
+		table.insert(n.abms, { l, i.interval, i.chance, nodenames })
 	end
 
 	n.g = 0
@@ -81,7 +85,7 @@ minetest.after(0, function()
 		n.l = n.l + 1
 		local l = i.name or "no name"
 		local nodenames = i.nodenames
-		if type(nodenames) == "string" then
+		if type(nodenames) ~= "table" then
 			nodenames = { nodenames }
 		end
 		table.insert(n.lbms, { l, i.run_at_every_load, nodenames })
