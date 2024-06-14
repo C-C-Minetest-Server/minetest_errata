@@ -60,6 +60,22 @@ xpanes.register_pane("wood", {
 	}
 })
 
+minetest.override_item("xpanes:wood_flat", {
+	tiles = {
+		-- Top, Bottom
+		"minetest_errata_wooden_bar_y.png",
+		"minetest_errata_wooden_bar_y.png",
+
+		-- Sides, werid code to keep MultiCraft compactibility, tl;dr all alpha
+		"minetest_errata_wooden_bar_y.png^[colorize:#000000:255^[makealpha:0,0,0",
+		"minetest_errata_wooden_bar_y.png^[colorize:#000000:255^[makealpha:0,0,0",
+
+		-- Front, Rear
+		"minetest_errata_wooden_bar.png",
+		"minetest_errata_wooden_bar.png",
+	}
+})
+
 
 local extra_groups = {
 	"group:bakedclay",
